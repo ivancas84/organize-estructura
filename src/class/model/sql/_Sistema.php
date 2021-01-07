@@ -33,7 +33,7 @@ class _SistemaSql extends EntitySql{
       case $p.'count_creado': return "COUNT({$t}.creado)";
 
       case $p.'_label': return "CONCAT_WS(' ',
-{$t}.id
+{$t}.nombre
 )";
       default: return null;
     }
